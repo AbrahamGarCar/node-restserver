@@ -57,8 +57,6 @@ app.post('/usuario', [verificarToken], function(req, res) {
             usuario: usuarioDB
         });
     });
-
-
 });
 
 app.put('/usuario/:id', [verificarToken, verificarAdmin_Role], function(req, res) {
