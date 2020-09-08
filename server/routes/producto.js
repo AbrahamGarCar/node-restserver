@@ -7,7 +7,7 @@ let Categoria = require('../models/categoria');
 
 const _ = require('underscore');
 
-
+//app.use( fileUpload({ useTempFiles: true }) );
 /*=============================================
 =               Crear producto                =
 =============================================*/
